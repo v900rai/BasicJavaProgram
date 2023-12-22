@@ -2,7 +2,7 @@ package garaph;
 
 public class largestAndSmallest 
 {
-	public static void main(String [] args)
+	public static void main(String []args)
 	{
 		 int[] inputArr = {10,43,27,98,75,59,191};
 		    // Setting largest value
