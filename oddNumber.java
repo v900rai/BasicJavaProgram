@@ -1,19 +1,17 @@
-package NumberProgram;
+package target200qQQQTTOOnnSS;
 
 public class oddNumber 
 {
-	public static void main(String[] args) 
+	public static void main(String []args)
 	{
-		int[] arr=new int[] {1,2,3,4,5,6,7,8,9};
-		System.out.println(" Enter the number");
-		for(int i=0; i<=arr.length; i++)
+		int number=100;
+		for(int i=0; i<=number; i++)
 		{
-			if(arr[i]%2!=0)
+			if(i%2!=0)
 			{
-				System.out.println("odd number"  +arr[i]);
+				System.out.println(i);
 			}
 		}
-		
 	}
 
 }
